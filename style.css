@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.basket-nav i{
+    border: 2px solid gold;
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.utensils i{
+    background-color: gold;
+    color: white;
+    border-radius: 50%;
+    padding: 11px;
+}
+
+.nav-item a{
+    margin-right: 30px;
+}
+
+.reserve{
+    background-color:gold;
+    margin-left:30px;
+    border: none;
+    border-radius: 50px;
+   
+}
+
+.reserve b{
+    margin: 18px;
+    font-size: 15px;
+}
+.menu h1{
+    font-family:serif;
+    font-weight: bold;
+    font-size: 55px;
+  
+   
+}
+
+.menu span{
+    line-height: 90px;
+}
+
+.menu-food a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu-food a:hover{
+    color: black;
+}
+
+.menu-food button{
+    padding:7px;
+    border: none;
+    background-color: gold;
+    border-radius: 50px;
+}
+
+
+.menu-food a{
+    margin: 17px;
+   
+}
+
+.side-pic{
+    background-color: white;
+    border-radius: 50px;
+    margin: 8px;
+}
+
+.gen-side{
+    position: relative;
+    top: 50%;
+    padding-right: 100px;
+   
+ 
+}
+
+.side-pic span{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.arrow i{
+    border: 2px solid  gold;
+    margin: 10px;
+    padding: 18px;
+    border-radius: 50%;
+}
+
+.pasta i{
+    color: gold;
+}
+
+.pasta span{
+    font-weight: bold;
+    padding-left:15px;
+}
+
+.card p{
+   font-size: 13px;
+}
+
+.card button{
+    float: right;
+    font-size: 12px;
+    padding:10px;
+    background-color: white;
+    border: none;
+   
+}
+
+.multiple i{
+    border: 2px dotted black;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.multiple span{
+    font-weight: bold;
+    font-family: cursive;
+    
+}
+
+.first-pic {
+    border: 2px solid gainsboro;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.first-pic1 {
+    border: 2px solid gainsboro;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.mul-bod  button{
+    border: none;
+    padding: 12px;
+}
+
+
+.special button{
+    border: 2px solid gold;
+    border-radius: 50px;
+    font-weight: bold;
+    height: 50px;
+    font-size: 15px;
+}
+
+.special button:hover{
+    background-color: gold;
+    color:black;
+    transition:ease-out 1s;
+}
+
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: -20px;
+}
+
+.main i{
+    position: fixed;
+    bottom: 30px;
+    background-color: gold;
+    padding: 14px;
+    margin-right:20px;
+    right: 0;
+}
+
+.main a{
+    color: black;
+}
+
+
+.main a:hover{
+    color: white;
+}
+
+.reservation button{
+    border: none;
+    padding: 10px;
+    background-color: gold;
+    border-radius: 30px;
+   
+}
+
+.reservation b{
+    margin: 10px;
+}
+
+.customer{
+    background-color: rgb(230, 222, 213);
+   padding: 15px;
+   margin: -14px;
+   border-radius: 30px;
+}
+
+.customer p{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+
+.chef p{
+    font-weight: bold;
+    font-size: 17px;
+    padding: 10px;
+}
+
+.download button{
+  
+    border-radius: 50px;
+}
+
+.download i{
+    font-size:20px;
+    color: darkturquoise;
+}
+
+.download span{
+    font-size: 15px;
+}
+
+.gen-menu{
+    background-color: rgb(230, 222, 213);
+    border-radius: 30px;
+}
+
+.bite i{
+    background-color: goldenrod;
+    color: white;
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.newsletter input{
+    border-bottom: 1px solid grey;
+    border-right: none;
+    border-left: none;
+    background-color: transparent;
+    outline: none;
+    border-top: none;
+}
+
+.enter  i{
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: goldenrod;
+}
+
+.social  i{
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 5px;
+    border: 1px solid black;
+    /* background-color: goldenrod; */
+}
+
+.social i:hover{
+    background-color: goldenrod;
+    color: black;
+    border: none;
+}
+
+
+
+
+
