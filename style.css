@@ -2,6 +2,57 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: ubuntu;
+}
+
+.main i{
+    position: fixed;
+    bottom: 30px;
+    background-color: gold;
+    padding: 14px;
+    border-radius: 5px;
+    /* margin-right:20px; */
+    right: 35px;
+}
+
+.chop1 img{
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+.recipe img{
+     border-top-right-radius:20px;
+    border-top-left-radius: 20px;
+}
+.main a{
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+
+
+.main a:hover{
+    color: white;
+}
+
+
+.nav-item a{
+    color: black;
+}
+
+.navbar-nav li::after{
+    color: black;
+    transition: .4s ease;
+    position: absolute;
+    content: "";
+    background-color:rgb(232, 194, 97) ;
+    height: 3px;
+    width: 0;
+    /* right: 0; */
+    bottom: 30%;
+}
+
+.navbar-nav li:hover::after{
+    width: 100px; 
 }
 
 .basket-nav i{
@@ -18,10 +69,9 @@
 }
 
 .low-pic{
-    position: relative;
-    bottom: 50%;
-    z-index: 0;
-    /* left: 50%; */
+    position: absolute;
+    top: 40px;
+    right: 2%;
 }
 
 .snack{
@@ -57,9 +107,8 @@
     font-size: 15px;
 }
 .menu h1{
-    font-family:serif;
     font-weight: bold;
-    font-size: 55px;
+    font-size: 70px;
   
    
 }
@@ -122,17 +171,19 @@
 
 .pasta span{
     font-weight: bold;
-    padding-left:15px;
+    margin: 20px;
+    font-size: 17px;
 }
 
 .card p{
    font-size: 13px;
 }
-
 .card button{
     float: right;
-    font-size: 12px;
+    font-size: 14px;
     padding:10px;
+    margin-right: 18px;
+    margin-bottom: 20px;
     background-color: white;
     border: none;
    
@@ -146,13 +197,30 @@
 
 .multiple span{
     font-weight: bold;
-    font-family: cursive;
+   
     
 }
+
+.gen-container{
+    position: relative;
+}
+
 
 .first-pic {
     border: 2px solid gainsboro;
     padding: 10px;
+    border-radius: 50%;
+}
+
+.first-pic img{
+    position: relative;
+    right: 5%;
+    top: 10px;
+}
+
+.first-pic2{
+    background-color:rgb(246, 236, 226);
+    padding: 42px 50px;
     border-radius: 50%;
 }
 
@@ -171,6 +239,7 @@
 .special button{
     border: 2px solid gold;
     border-radius: 50px;
+    background-color: #faf0e6;
     font-weight: bold;
     height: 50px;
     font-size: 15px;
@@ -179,7 +248,7 @@
 .special button:hover{
     background-color: gold;
     color:black;
-    transition:ease-out 1s;
+    transition:ease-out 0.4s;
 }
 
 
@@ -188,23 +257,6 @@
     margin: -20px;
 }
 
-.main i{
-    position: fixed;
-    bottom: 30px;
-    background-color: gold;
-    padding: 14px;
-    margin-right:20px;
-    right: 0;
-}
-
-.main a{
-    color: black;
-}
-
-
-.main a:hover{
-    color: white;
-}
 
 .reservation button{
     border: none;
@@ -228,8 +280,9 @@
 .customer p{
     font-weight: bold;
     font-size: 17px;
+    /* ::-webkit-scrollbar */
+    /* scroll-behavior: smooth; */
 }
-
 
 .chef p{
     font-weight: bold;
@@ -238,12 +291,14 @@
 }
 
 .download button{
-  
-    border-radius: 50px;
+
+    border-radius: 10px;
 }
 
 .download i{
     font-size:20px;
+    /* margin-top: 12px; */
+    /* margin: 10px; */
     color: darkturquoise;
 }
 
@@ -282,12 +337,18 @@
 .social  i{
     padding: 8px;
     cursor: pointer;
+    transition: all .5s step-end;
     border-radius: 50%;
     margin: 5px;
     border: 1px solid black;
-    /* background-color: goldenrod; */
 }
 
+.social i:hover{
+    background-color: goldenrod;
+    box-shadow: 0 0px 10px 1px gold;
+    border: 1px solid transparent;
+    transform: translateY(-10px);
+}
 
 @media screen and (max-width:768px){
     .more-pic img{
@@ -300,6 +361,40 @@
         padding-left: 0;
         height: 300px;
     }
+
+
+    .low-pic{
+        position: absolute;
+        top: 5%;
+        right: 2%;
+    }
+
+    .gen-container{
+        position: relative;
+    }
+    
+
+
+.first-pic2{
+    background-color:rgb(246, 236, 226);
+    padding: 22px 30px;
+    border-radius: 50%;
+}
+.gen-menu{
+    background-color:transparent;
+    border-radius: 30px;
+
+}
+
+.hungry h1{
+   font-size:22px;
+}
+
+.hungry p{
+   font-size: 12px;
+   margin-bottom:20px;
+   
+}
 
  
     

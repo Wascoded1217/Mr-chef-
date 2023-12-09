@@ -9,9 +9,10 @@
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
 </head>
-<body style="background-color:#efe9e2">
+<body style="background-color:#faf0e6">
+  <!-- <div id="preloader"></div> -->
   <!-- nav begin -->
-  <nav class="navbar navbar-expand-lg navbar-light bg- text-dark">
+  <nav class="navbar navbar-expand-lg navbar-light  text-dark" id="wait">
         <div class="container">
             <a class="navbar-brand utensils" href="#">
               <i class="fas fa-utensils"></i>
@@ -23,19 +24,24 @@
             <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                       <li class="nav-item">
-                          <a class="nav-link active text-dark" aria-current="page" href="">About Us</a>
+                          <a class="nav-link" aria-current="page" href="">About Us</a>
+                         
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link  text-dark" href="#">Menu</a>
+                        <a class="nav-link" href="#">Menu</a>
+                       
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link   text-dark" href="#">Reviews</a>
+                        <a class="nav-link" href="#">Reviews</a>
+                       
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link   text-dark" href="#">Blog</a>
+                        <a class="nav-link" href="#">Blog</a>
+                      
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link    text-dark" href="#">Contacts</a>
+                        <a class="nav-link " href="#">Contacts</a>
+                      
                       </li> <br>
                         <div class="nav">
                             <div class="basket-nav">
@@ -50,30 +56,31 @@
 <!-- footer nav -->
      
          
-    <div class="container" id="wait">
+    <div class="container">
         <div class="row my-5">
             <div class="col-md-7 menu mt-5">
                 <h1>We Serve The <br> Taste  <span>  You Love </span> <a style="font-size: 50px;text-decoration: none;"  href=""> &#128525;</a></h1> <br>
-                <p class="text-muted">This is a type of restaurant which typically serves food and drinks. in <br> addition to light refreshment such as baked goods or snacks. The term <br> comes from the rench word meaning food.</p> <br>
+                <p class="text-muted">This is a type of restaurant which typically serves food and drinks. in <br> addition to light refreshment such as baked goods or snacks. The term <br> comes from the French word meaning food.</p> <br>
                 <div class="menu-food">
                     <button type="button"><a href="#">Explore Food</a></button>
-                    <button type="button" class="mx-3" style="border: 2px solid gold;background-color: #efe9e2;"> <i class="fas fa-search ms-3"></i> <a href="#">Search</a></button>
+                    <button type="button" class="mx-3" style="border: 2px solid gold;background-color: #faf0e6;"> <i class="fas fa-search ms-3"></i> <a href="#">Search</a></button>
                 </div> <br> <br> 
             </div>
-            <div class="col-md-5">
-                    <div class="first-pic1">
-                        <div class="first-pic mt-2">
-                            <img src="images/firstright.jpg" width="100%" class="rounded-circle bg-light" alt="">
-                            
-                        </div>
-                    </div> 
-                    <!-- <div class="low-pic">
+            <div class="col-md-5 gen-container">
+                <div class="first-pic2">
+                        <div class="first-pic1">
+                            <div class="first-pic mt-2">
+                                <img src="images/firstright.jpg" width="100%" class="rounded-circle bg-light img-fluid" alt="">
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="low-pic">
                           <div class="mb-4 snack">
-                            <img src="images/one.jpg" width="20%" alt="">
+                            <img src="images/ffries1.jpg" width="20%" alt="">
                             <strong>Dishes</strong>
                           </div>
                           <div class="mb-4  snack">
-                            <img src="images/big-sandwich-hamburger-with-juicy-beef-burger-cheese-tomato-red-onion.webp" width="20%" alt="">
+                            <img src="images/pasta1.jpg" width="20%" alt="">
                             <strong>Dessert</strong>
                           </div>
                         
@@ -89,12 +96,11 @@
                           <img src="images/first sideview.jpg" width="20%" alt="">
                           <strong>Snacks</strong>
                         </div>
-                    </div>  -->
+                    </div> 
             </div>
         </div>
      </div>
 
-                      
         <div class="container">
               <div class="row ps-4">
                     <div class="col-md-10"> <br>
@@ -110,9 +116,9 @@
 
   <div class="container mt-5">
       <div class="row  pasta justify-content-between m-3 ps-4">
-            <div style="border-radius: 0;border: none;" class="col-md-3 card mb-4 p-0">
-               <div class="mt-0">
-                  <img src="images/second right.jpg" width="100%" alt=""> <br> <br>
+            <div style="border: none;border-radius:15px;" class="col-md-3 card mb-4 p-0 ">
+               <div class="mt-0 chop1"> 
+                  <img src="images/stir-fried-crispy-pork-belly-basil-with-rice.webp" width="100%" alt=""> <br> <br>
                     <div class="text-center mt-5">
                           <h5>Pasta</h5>
                         <div>
@@ -129,11 +135,11 @@
                  </div>
             </div> 
 
-            <div  class="col-md-3 card mb-4 p-0" style="border-radius: 0;border: none;">
-                  <div class="mt-0">
-                    <img src="images/second right.jpg" width="100%" alt=""> <br> <br>
+            <div  class="col-md-3 card mb-4 p-0" style="border-radius: 15px;border: none;">
+                  <div class="mt-0  chop1"> 
+                    <img src="images/ffries3.jpg" width="100%" alt=""> <br> <br>
                     <div class="text-center mt-5">
-                        <h5>French Fires</h5>
+                        <h5>French Fries</h5>
                           <div>
                               <i class="fas fa-star"></i>
                               <i class="fas fa-star"></i>
@@ -147,9 +153,9 @@
                   </div>
             </div>
 
-          <div class="col-md-3 card mb-4 p-0" style="border-radius: 0;border: none;">
-              <div class="mt-0">
-                    <img src="images/second right.jpg" width="100%" alt=""> <br> <br>
+          <div class="col-md-3 card mb-4 p-0" style="border-radius: 15px;border: none;">
+              <div class="mt-0  chop1"> 
+                    <img src="images/shaw1.jpg" width="100%" alt=""> <br> <br>
                     <div class="text-center mt-5">
                         <h5>Chicken Shawarma</h5>
                           <div>
@@ -164,11 +170,11 @@
               </div>
           </div>
 
-            <div class="col-md-3 card mb-4 p-0" style="border-radius: 0;border: none;">
-                  <div class="mt-0">
-                        <img src="images/second right.jpg" width="100%" alt=""> <br> <br>
+            <div class="col-md-3 card mb-4 p-0" style="border-radius: 15px;border: none;">
+                  <div class="mt-0  chop1"> 
+                        <img src="images/ffries1.jpg" width="100%" alt=""> <br> <br>
                       <div class="text-center mt-5">
-                          <h5>Fish Curry</h5>
+                          <h5>Chicken-Pizza</h5>
                         <div>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -190,7 +196,7 @@
                       <div class="more-pic"><img src="images/chef2.jpg" width="80%" height="500px" class="img rounded-circle m-0" alt=""></div>
                    </div>
                    <div class="col-md-6 my-5 mul-bod">
-                        <h2 style="font-size: 50px;font-family: serif;font-weight: bold;">We Are More Than <br> Multiple Services</h2> <br>
+                        <h2 style="font-size: 50px;font-weight: bold;">We Are More Than <br> Multiple Services</h2> <br>
                         <p class="text-muted">This is a type of restaurant which typically serves food and drinks, in <br> addition to light refreshments such as baked goods or snacks. The term <br>come from the wrench word meaning food.</p> <br>
                         <div class="wh-multiple">
                             <div class="multiple mb-4">
@@ -216,13 +222,13 @@
                    </div>
               </div>
          </div>  
-      
+      <!-- <i class="fas fa-watchs"></i> -->
 
       <div class="container text-center my-4">
-          <h1 style="font-size: 40px;font-family: serif;font-weight: bold;">Our Regular Menu Pack</h1> 
+          <h1 style="font-size: 40px;font-weight: bold;">Our Regular Menu Pack</h1> 
               <div class="my-5 special row m-5">
                     <div class="col-md-2 mb-3">
-                        <button class="w-100">SpecialFoods</button>
+                        <button class="w-100">Special Foods</button>
                     </div> 
                     <div class="col-md-2 mb-3">
                         <button class="w-100">Maxican</button>
@@ -244,9 +250,9 @@
 
       <div class="container">
         <div class="row  pasta my-2 justify-content-between m-3 ps-4">
-          <div style="border-radius: 0;border: none;" class="col-md-3 card  mb-4 p-0">
-              <div class="mt-0">
-               <div class=""> <img src="images/top-view-table-full-delicious-food-.webp" width="100%"  class="" alt=""> </div><br> 
+          <div style="border: none;border-radius: 20px;" class="col-md-3 card  mb-4 p-0">
+              <div class="mt-0 recipe">
+               <div class=""> <img src="images/pasta1.jpg" width="100%"  class="" alt=""> </div><br> 
                 <div class="text-center mt-5">
                   <h5>Pasta</h5>
                   <div>
@@ -263,17 +269,17 @@
               </div>
           </div> 
 
-          <div  class="col-md-3 card  mb-4 p-0" style="border-radius: 0;border: none;">
-            <div class="mt-0">
-             <div class=""><img src="images/french.png" width="100%" height="210px" alt=""> </div><br>
-              <div class="text-center mt-5">
+          <div  class="col-md-3 card  mb-4 p-0" style="border: none;border-radius: 20px;">
+            <div class="mt-0 recipe"> 
+             <div class=""><img src="images/ffries2a.png" width="100%"  alt=""> </div><br>  <br> <br> <br>
+              <div class="text-center mt-2"> 
                   <h5>French Fries</h5>
                     <div>
                       <i class="fas fa-star"></i>
                       <i class="fas fa-star"></i>
                       <i class="fas fa-star"></i>
                       <i class="fas fa-star"></i>
-                    </div> <br>
+                    </div> <br> 
                     <p>Pasta is a type of food typically made <br> from an unleavened dough.</p>
               </div> 
               <span>$55.00</span>
@@ -281,9 +287,9 @@
             </div>
           </div>
 
-          <div class="col-md-3 card  mb-4 p-0" style="border-radius: 0;border: none;">
-            <div class="mt-0">
-             <div class=""><img src="images/second right.jpg" width="100%" alt=""></div> <br> 
+          <div class="col-md-3 card  mb-4 p-0" style="border: none;border-radius: 20px;">
+            <div class="mt-0 recipe"> 
+             <div class=""><img src="images/shaw1a.png" width="100%" alt=""></div> <br>  
               <div class="text-center mt-5">
                 <h5>Chicken Shawarma</h5>
                 <div>
@@ -298,10 +304,10 @@
             </div>
           </div>
 
-          <div class="col-md-3 card mb-4 p-0" style="border-radius: 0;border: none;">
-            <div class="mt-0">
+          <div class="col-md-3 card mb-4 p-0" style="border: none;border-radius: 20px;">
+            <div class="mt-0 recipe">
              <div class="">
-              <img src="images/top-view-table-full-delicious-food-.webp" width="100%" alt=""> 
+              <img src="images/fishc1.jpg" width="100%" alt=""> 
              </div><br>
               <div class="text-center mt-5">
                 <h5>Fish Curry</h5>
@@ -322,9 +328,9 @@
       </div>
       <div class="container">
         <div class="row  pasta my-5 justify-content-between m-3 ps-4">
-          <div style="border-radius: 0;border: none;" class="col-md-3 card  mb-4 p-0">
-              <div class="mt-0">
-               <div class=""><img src="images/grilled-chicken-legs-barbecue-sauce-with-pepper-seeds.jpg" width="100%" alt=""></div>  <br> 
+          <div style="border: none;border-radius: 20px;" class="col-md-3 card  mb-4 p-0">
+              <div class="mt-0 recipe">
+               <div class=""><img src="images/shaw2.jpg" width="100%" alt=""></div>  <br> 
                 <div class="text-center mt-5">
                   <h5>Chicken Shawarma</h5>
                   <div>
@@ -341,10 +347,10 @@
               </div>
           </div> 
 
-          <div  class="col-md-3 card  mb-4 p-0" style="border-radius: 0;border: none;">
-            <div class="mt-0">
+          <div  class="col-md-3 card  mb-4 p-0" style="border: none;border-radius: 20px;">
+            <div class="mt-0 recipe">
              <div class="">
-              <img src="images/penne-pasta-tomato-sauce-with-chicken-tomatoes.jpg" width="100%" alt=""> 
+              <img src="images/ffries1.jpg" width="100%" alt=""> 
              </div> <br>
               <div class="text-center mt-5">
                   <h5>French Fries</h5>
@@ -361,8 +367,8 @@
             </div>
           </div>
 
-          <div class="col-md-3 card  mb-4 p-0" style="border-radius: 0;border: none;">
-            <div class="mt-0">
+          <div class="col-md-3 card  mb-4 p-0" style="border: none;border-radius: 20px;">
+            <div class="mt-0 recipe">
             <div class=""> <img src="images/pasta-spaghetti-with-shrimps-sauce.webp" width="100%" alt=""></div> <br>
               <div class="text-center mt-5">
                 <h5>Pasta</h5>
@@ -379,10 +385,10 @@
             </div>
           </div>
 
-          <div class="col-md-3 card mb-4 p-0" style="border-radius: 0;border: none;">
-            <div class="mt-0">
+          <div class="col-md-3 card mb-4 p-0" style="border: none;border-radius: 20px;">
+            <div class="mt-0 recipe">
              <div class="">
-              <img src="images/big-sandwich-hamburger-with-juicy-beef-burger-cheese-tomato-red-onion.webp" width="100%" height="210px " alt=""> 
+              <img src="images/first sideview.jpg" width="100%" height="210px " alt=""> 
              </div> <br>  
               <div class="text-center mt-5">
                 <h5>Hamburger</h5>
@@ -404,7 +410,7 @@
       <div class="container">
           <div class="row ps-5 py-5 p-0">
              <div class="col-md-6">
-                <h2 style="font-weight: bold;font-family: serif;font-size: 45px;">Do You Have Any Dinner <br> Plan Today? Reserve <br> Your Table</h2> <br>
+                <h2 style="font-weight: bold;font-size: 45px;">Do You Have Any Dinner <br> Plan Today? Reserve <br> Your Table</h2> <br>
                 <p>Make online reservations, read restaurants reviews from dinners and earn <br> point towards free meals. Open table is a real-time online reservations.</p>
                 <div class="reservation"><button type="submit" class="my-3"> <b> Make Reservation</b></button></div>
             </div>
@@ -472,14 +478,14 @@
 
       <div class="container">
         <div class="row justify-content-around ps-3 my-5 chef">
-            <div  class="col-md-3">
-              <div  class=" mb-3 text-center">
+            <div  class="col-md-3 chef-cont">
+              <div  class=" mb-3 text-center name">
                 <img src="images/chef4.png" width="75%" class="img-thumbnail mb-3" height="350px" alt="">
                 <p>Esther Howard</p>
               </div>
             </div>
             <div class="col-md-3">
-              <div   class=" mb-3 text-center">
+              <div   class=" mb-3 text-center name">
                 <img src="images/chef2.jpg" width="83%" class="img-thumbnail mb-3" height="350px" alt="">
                 <p>Savannah Nguyen</p>
                
@@ -487,14 +493,14 @@
               
             </div>
             <div class="col-md-3">
-              <div   class=" mb-3 text-center">
+              <div   class=" mb-3 text-center name">
                 <img src="images/chef3.jpg" width="75%" class="img-thumbnail mb-3" height="350px" alt="">
                 <p>Marvin Mckinney</p>
               </div>
             
             </div>
             <div class="col-md-3">
-              <div   class=" mb-3 text-center">
+              <div   class=" mb-3 text-center name">
                 <img src="images/chef1.png" width="70%" class="img-thumbnail mb-3" height="350px" alt="">
                 <p>Albert Flores</p>
               </div>
@@ -506,20 +512,20 @@
       <div class="container">
          <div class="row  py-2 m-4 gen-menu p-0">
                 <div class="col-md-6 download ps-5"> <br> <br>
-                    <div class="m-0">
+                    <div class="m-0 hungry">
                         <h1 class="" style="font-weight: bold;">Never Feel Hungry! <br> Download Our Mobile App <br> Enjoy Delicious Foods</h1> <br>
                         <p>Make online reservation, read restaurant reviews frow dinner, and earn <br> points towards free meal. OpenTable is a real-time online reservation.</p>
                     </div>
-                    <button style="background-color: goldenrod;border: 2px solid whitesmoke;" type="button" class="px-4 py-2 p-2">
+                    <button style="background-color: goldenrod;border: 2px solid whitesmoke;" type="button" class="px-4 py-0 p-2">
                       <i class="fas fa-apple-alt text-dark"></i> <span>Download on the <br> <b>Apple Store</b></span>
                     </button>
-                    <button style="border: 2px solid gold;" type="button" class="m-4 px-4 py-2 p-2">
+                    <button style="border: 2px solid gold;" type="button" class="m-4 px-4 py-0 p-2">
                       <i class="fab fa-google-play"></i> <span>Get it from <br> <b> Google Play</b></span>
                     </button>
                 </div>
-              <div class="col-md-6 down text-center">
+              <div class="col-md-6  down text-center">
                 <img src="images/food delivery.png
-              " width="100%" class="" alt="">
+              " width="100%" class="img-fluid" alt="">
               </div>
           </div>
       </div>
@@ -546,7 +552,7 @@
                               <i class="fab fa-youtube"></i>
                           </div>
                   </div>
-                  <div class="col-md-3">
+                  <div class="col-md-3 col-6">
                             <h4>Service</h4><br>
                             <div>
                                 <p>Online Order</p>
@@ -558,7 +564,7 @@
                             </div>
                                 
                   </div>
-                  <div class="col-md-3">
+                  <div class="col-md-3 col-6">
                               <h4>Quick Links</h4> <br>
                               <div>
                                 <p>Menu</p>
@@ -569,7 +575,7 @@
                               </div>
                               
                   </div>
-                  <div class="col-md-3">
+                  <div class="col-md-3 col-6">
                                 <h4>About</h4> <br>
                                 <div>
                                   <p>Our Story</p>
@@ -577,34 +583,46 @@
                                   <p>Career</p>
                                   <p>Our chefs</p>
                                 </div>
-                               
                   </div>
           </div>
     </footer>
 
+    
 
 
 
 
 <!-- content fixed  -->
-      <div class="main"> 
-        <a href="#wait" title="Go to Top"> <i class="fas fa-arrow-up"></i></a>
-        </div>
+      <div  class="main" > 
+        <a onclick="topFunction()" href="#wait" id="myBtn" title="Go to Top"> <i  class="fas fa-arrow-up"></i></a>
+      </div>
         
+     
         
 
 
       
-     
-
-
-
-
-
-
-
-
-
+     <script>
+                // Get the button
+            var mybutton = document.getElementById("myBtn");
+                
+          // When the user scrolls down 20px from the top of the document, show the button
+          window.onscroll = function() {scrollFunction()};
+          function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              mybutton.style.display = "block";
+              mybutton.style.transition=".4s ease"
+            } else {
+              mybutton.style.display = "none";
+              mybutton.style.transition=".4s ease"
+            }
+          }
+          // When the user clicks on the button, scroll to the top of the document
+          function topFunction() {
+            document.body.scrollTop = 0;
+            // document.documentElement.scrollTop = 0;
+          }
+     </script>
 
     <script src="bootstrap.bundle.min.js"></script>
 </body>
